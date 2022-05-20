@@ -19,6 +19,7 @@ ul {
 
 .logo {
     font-family: raleway;
+    font-size: 26px;
     font-weight: 700;
     color: var(--accent-color);
     line-height: 1.19;
@@ -40,15 +41,12 @@ ul {
     text-decoration: none;
 }
 
-.button-primary {
-    text-decoration: none;
-    color: var(--secondary-text-color);
-    letter-spacing: 0.02em;
-}
-.button-secondary {
+
+.button-primary, .button-secondary {
     text-decoration: none; 
     color: var(--secondary-text-color);
     letter-spacing: 0.02em;
+    line-height: 1.17;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -81,21 +79,6 @@ ul {
     text-align: center;
     background-color: #2F303A;
 }
-button {
-    background: var(--accent-color);
-    color:var(--primary-white-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    border: none;
-}
 
 /* benefits */
 
@@ -103,7 +86,7 @@ button {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -138,7 +121,6 @@ footer {
     background-color: #2F303A;
 }
 address {
-    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -147,6 +129,21 @@ address {
 
 address p {
     color: var(--primary-white-color);
+}
+
+address .button-footer-primary, .button-footer-secondary {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    line-height: 1.71;
+}
+
+.button-footer-primary:hover,
+.button-footer-primary:focus {
+    color:var(--accent-color);
+}
+.button-footer-secondary:hover,
+.button-footer-secondary:focus {
+    color:var(--accent-color);
 }
     
 /* PORTFOLIO  */
@@ -161,6 +158,22 @@ address p {
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+button {
+    background: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: none;
 }
 
 .filter-list button {
